@@ -3,7 +3,7 @@ var request = new XMLHttpRequest();
 //2nd step: API URL
 //.open method
 //2 parameters
-request.open("GET", "https://restcountries.com/v2/all");
+request.open("GET", "https://restcountries.com/v3.1/all");
 //3rd step : establishing the bridge
 request.send();
 //4th step : once the data sucessfully received from server
